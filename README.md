@@ -1,6 +1,6 @@
 # Web scraping
 Materials for MIT Political Methodology Lab workshop on learning to scrape with Python. 
-Taken and adapted from Andy Halterman's workshop materials on web scraping: [https://github.com/ahalterman/learn_to_scrape](https://github.com/ahalterman/learn_to_scrape). The workshop is split into two parts. First, we will get familiar with Python. Then we use it to learn how to scrape websites using `BeautifulSoup`.
+Taken and adapted (currently almost identical) from Andy Halterman's workshop materials on web scraping: [https://github.com/ahalterman/learn_to_scrape](https://github.com/ahalterman/learn_to_scrape). The workshop is split into two parts. First, we will get familiar with Python. Then we use it to learn how to scrape websites using `BeautifulSoup`.
 
 ## Before coming to the workshop
 Please follow the [Setup instructions](https://github.com/akapl0/PML_Web_scraping/wiki/Setup-Instructions) on the Wiki before coming to the workshop so we can maximize the amount of time spent learning Python and web scraping.
