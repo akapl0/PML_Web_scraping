@@ -1,10 +1,12 @@
 ---
 title: "Advanced Scraping"
-author: Andy Halterman
-date: "11 November 2019"
+author: Adam Kaplan
+date: "February 25, 2022"
 output: 
   beamer_presentation:
-    theme: metropolis
+    theme: "CambridgeUS"
+    colortheme: "beaver"
+    incremental: true
 ---
 
 ```{r echo=FALSE}
@@ -46,21 +48,19 @@ page = requests.get(url, headers=random_headers())
 
 Downloading Youtube videos can be important for research reproducibility (see Rich's book).
 
-```
+\centering
 https://github.com/nficano/pytube
-```
 
 ## Download Youtube metadata
 
 We probably care just as much about the video metadata
 
-```
+\centering
 https://github.com/elizariley/youtube_extremism
-```
 
 ## Downloading a whole bunch of PDFs
 
-\small
+\tiny
 
 ```
 def download_cable(i, year, collection, outdir):
@@ -82,17 +82,15 @@ def download_cable(i, year, collection, outdir):
 
 Sometimes you can directly access the raw data that goes into a page's visualization using the "Javascript Console"/network tab.
 
-```
+\centering
 https://trac.syr.edu/phptools/immigration/arrest/
-```
 
 ## OCR and Tesseract
 
 If you scrape image PDFs that you want the text from, you'll need to do optical character recognition to convert the image to text
 
-```
+\centering
 https://github.com/tesseract-ocr/tesseract
-```
 
 ## Big scrape
 
@@ -101,19 +99,17 @@ https://github.com/tesseract-ocr/tesseract
 
 \pause
 
-```
+\centering
 https://github.com/ahalterman/big_scrape
-```
-(email me for access)
+(email Andy Halterman at ahalterman0\@gmail.com for access)
 
 
 ## Newspapers3k
 
 Scraping a bunch of articles from a bunch of sites? This library automatically finds titles, authors, text, etc.
 
-```
+\centering
 https://newspaper.readthedocs.io/en/latest/
-```
 
 ## Rendering Javascript
 
