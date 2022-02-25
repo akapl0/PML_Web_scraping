@@ -51,7 +51,7 @@ and
     [Python] "Adam Kaplan".split(" ")
 ```
 
-- Objects can also have attributes, which are pieces of data attached to an object. Example: `andy.subfields = ['methods', 'comparative']`
+- Objects can also have attributes, which are pieces of data attached to an object. Example: `adam.subfields = ['methods', 'international relations']`
 
 ## Data Structures (Lists)
 
